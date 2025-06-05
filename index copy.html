@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span>Aj</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contact</a></li>
+                </ul>
+                <a href="#contacts" class="btn btn-outline-light ms-3">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex flex-column align-items-center justify-content-center text-center text-light min-vh-100 bg-dark">
+        <img src="images/me1.jpg" class="rounded-circle mb-4" alt="Aj's Portrait" style="width: 150px;">
+        <div>
+            <h1 class="display-4"><span>Hey! I'm Aj!</span></h1>
+            <h3 class="mb-3">A BSIT student from PUP Santo Tomas</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div>
+            <a href="#contacts" class="btn btn-primary">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-secondary text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1><span>About Me</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2 class="mt-4"><span>Skills</span></h2>
+                    <ul class="list-unstyled row">
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> HTML</li>
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> CSS</li>
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> JS</li>
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> Python</li>
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> C#</li>
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> MySQL</li>
+                        <li class="col-md-6"><i class='bx bx-chevron-right'></i> PHP</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="images/me2.jpg" class="img-fluid rounded" alt="Aj's Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Projects</h1>
+            <div class="row gy-4">
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white">
+                        <img src="images/ams1.jpg" class="card-img-top" alt="Amsterdam">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-success">Amsterdam</h5>
+                            <p class="card-text flex-grow-1">A simple website about Amsterdam and its beautiful landmarks and tourist spots.</p>
+                            <a href="https://konfuzed12.github.io/amsterdam.github.io/" class="btn btn-primary mt-auto" target="_blank">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white">
+                        <img src="images/twiceee.jpg" class="card-img-top" alt="Twice">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-success">Twice website</h5>
+                            <p class="card-text flex-grow-1">A simple website about my favorite Kpop group Twice.</p>
+                            <a href="https://konfuzed12.github.io/twice.github.io/" class="btn btn-primary mt-auto" target="_blank">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex align-items-stretch">
+                    <div class="card bg-dark text-white">
+                        <img src="images/ams1.jpg" class="card-img-top" alt="Placeholder">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-success">Wala pa</h5>
+                            <p class="card-text flex-grow-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contacts" class="py-5 bg-secondary text-light">
+        <div class="container">
+            <h1 class="text-center"><span>Contact</span></h1>
+            <form class="mt-4">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-control" rows="4" placeholder="Enter Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><i class='bx bxs-location-plus'></i> A. Bonifacio St, Matandang Balara, Santo Tomas, Batangas</p>
+                    <p><i class='bx bxs-phone'></i> +1 234 567 890</p>
+                    <p><i class='bx bxl-gmail'></i> email@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-center gap-3">
+                        <i class='bx bxl-facebook-circle' style="font-size: 2rem;"></i>
+                        <i class='bx bxl-linkedin-square' style="font-size: 2rem;"></i>
+                        <i class='bx bxl-github' style="font-size: 2rem;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
